@@ -1,0 +1,68 @@
+body{
+    background-color:rgb(30, 26, 58) ;
+    background-color: rgb(30, 26, 58) ;
+    min-height: 100vh;
+    background-color: rgb(30, 26, 58) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Clasd1{
+    display: flex;
+    justify-content:center;
+    width: 700px;
+    height: 400px;
+    margin: 30px;
+    padding: 40px;
+    border: 1px solid white;
+    padding: 10px; 
+    border-radius: 2rem;
+    background-color: white;
+}
+
+#button{
+    border-color: white;
+    background-color:white;
+    align-items: center;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid var(--Grey);
+    color: var(--Charcoal-Grey);
+    padding: 12px;
+    outline: none;
+    border-radius:8px;
+    color:white;
+    background-color:rgb(30, 26, 58);
+    background-image: linear-gradient(90deg,rgb(30, 26, 58) 0%,rgb(30, 26, 58) 100%);
+
+}
+#button:hover{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--Grey);
+    margin-bottom: 20px;
+    color: var(--Charcoal-Grey);
+    outline: none;
+    background-color: #f25774;
+    background-image: linear-gradient(90deg, #f25774 0%, #ff6742 100%);
+    box-shadow: 7px 9px 30px -4px rgba(242, 87, 116, 1);
+}
+
+.Clasd2{
+    text-align: center;
+}
+.Clasd3{
+    margin-right: 40px;
+}
+.buton{
+    color: aqua;
+}
+@media screen and (max-width : 365px){
+    .Clasd1{
+       
+            width: 100%;
+            margin: 10px; 
+            padding: 20px;
+    }
+    
+}
